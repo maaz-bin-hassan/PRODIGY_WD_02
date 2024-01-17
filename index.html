@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stopwatch Task</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;1,300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="stopwatch">
+      <h1><span class="gold">MAAZ</span> STOPWATCH</h1>
+      <div class="circle">
+        <span class="time" id="display">00:00:00</span>
+      </div>
+
+      <div class="controls">
+        <button class="buttonPlay">
+          <img id="playButton" src="img/play.svg" />
+
+          <img id="pauseButton" src="img/pause.svg" />
+        </button>
+
+        <button class="buttonReset">
+          <img id="resetButton" src="img/reset.svg" />
+        </button>
+      </div>
+     
+<div class="laps">
+    <h2>Lap Times</h2>
+    <ul id="lapList"></ul>
+  </div>
+  
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
